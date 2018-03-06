@@ -3,6 +3,7 @@
     const secondHand = document.querySelector('.hand-second');
     const minuteHand = document.querySelector('.hand-minute');
     const hourHand = document.querySelector('.hand-hour');
+    const promos = new Array(9, 11, 0, 1, 2, 3);
 
     let rotations = [0, 0, 0]; // [seconds, minutes, hours]
 
@@ -25,7 +26,7 @@
             rotations[2]++;
         }
 
-        if ((hours === 9 || hours === 11 || hours === 12 || hours === 2 || hours === 3) && (minutes <=1)) {
+		if (promos.indexOf(hours) !== -1 && (minutes <=1)) {
             showAction(hours);
         } else {
             hideAction();
