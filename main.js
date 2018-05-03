@@ -5,11 +5,11 @@
     const hourHand = document.querySelector('.hand-hour');
     const promos = {
 		9: {title : '21u-23u<br/>10 pinten = €10'},
-		11: {title : '23u-00u<br/>Passoa'},
-		0: {title : '00u-01u<br/>Duvel & Rougekes'},
-		1: {title : '01u-02u<br/>Shotjes €1'},
-		2: {title : '02u-03u<br/>Wijn'},
-		3: {title : '03u-04u<br/>Ginto\'s'},
+		11: {title : '23u-00u<br/>Passoa = €3'},
+		0: {title : '00u-01u<br/>Duvel & Rougekes = €2'},
+		1: {title : '01u-02u<br/>Shotjes = €1'},
+		2: {title : '02u-03u<br/>Wijn = €1,5'},
+		3: {title : '03u-04u<br/>Ginto\'s = €4'},
 	};
 
     let rotations = [0, 0, 0]; // [seconds, minutes, hours]
