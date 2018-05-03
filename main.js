@@ -18,9 +18,11 @@
         const now = new Date();
 
         const seconds = now.getSeconds();
-        const minutes = now.getMinutes();
-        const hours = now.getHours() % 12;
+        // const minutes = now.getMinutes();
+        // const hours = now.getHours() % 12;
         const timeToShowPromo = 5;
+        const hours = 8, minutes = 1;
+
 
         if (seconds === 0) {
             rotations[0]++;
@@ -69,6 +71,7 @@
         document.body.style.backgroundPosition = 'center';
         document.body.style.backgroundColor = 'rgba(14,14,32,1)';
         document.body.style.backgroundSize = '1000px 1000px';
+        document.getElementById('clock').style.opacity = '0.2';
         document.getElementById('promo').style.display = 'none';
 
     }
