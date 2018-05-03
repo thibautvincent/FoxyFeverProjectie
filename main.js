@@ -18,10 +18,10 @@
         const now = new Date();
 
         const seconds = now.getSeconds();
-        // const minutes = now.getMinutes();
-        // const hours = now.getHours() % 12;
+        const minutes = now.getMinutes();
+        const hours = now.getHours() % 12;
         const timeToShowPromo = 5;
-        const hours = 8, minutes = 1;
+        // const hours = 9, minutes = 1;
 
 
         if (seconds === 0) {
