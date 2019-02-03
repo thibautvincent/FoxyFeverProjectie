@@ -21,7 +21,6 @@
         const seconds = now.getSeconds();
         const minutes = now.getMinutes();
         const hours = now.getHours() % 12;
-        const timeToShowPromo = 5;
         // const hours = 9, minutes = 1;
 
 
@@ -37,7 +36,7 @@
             rotations[2]++;
         }
 
-		if (promos.hasOwnProperty(hours) && (minutes <= timeToShowPromo)) {
+		if (promos.hasOwnProperty(hours) && (minutes%15 === 0)) {
             showAction(promos[hours].title.toString());
         } else {
             hideAction();
