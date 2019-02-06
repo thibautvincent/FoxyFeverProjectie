@@ -1,5 +1,11 @@
+@font-face {
+    font-family: Quicksand;
+    font-weight: bold;
+    src: url("Quicksand-Bold.otf") format("opentype");
+}
+
 :root {
-  --color-primary: #FFF;
+  --color-primary: #F7E7D3  ;
   --color-accent: #F44336;
   --color-background: #000;
 }
@@ -21,6 +27,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   background-color: var(--color-background);
+  font-family: 'Quicksand', serif;
 }
 
 .clock {
