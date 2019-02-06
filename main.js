@@ -21,7 +21,7 @@
         const seconds = now.getSeconds();
         const minutes = now.getMinutes();
         const hours = now.getHours() % 12;
-        // const hours = 9, minutes = 1;
+        // const hours = 3, minutes = 15;
 
 
         if (seconds === 0) {
