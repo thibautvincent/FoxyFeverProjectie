@@ -56,12 +56,7 @@
         document.body.style.backgroundImage = "url('images/promo_background.jpg')";
         document.body.style.backgroundSize= 'cover';
         var spanElement = document.getElementById('promo');
-        spanElement.style.display = 'block';
         spanElement.innerHTML = title;
-        spanElement.style.color = 'white';
-        spanElement.style.fontSize = '90px';
-        spanElement.style.fontWeight = 'bold';
-        spanElement.style.textAlign = 'center';
     }
 
     function hideAction() {
