@@ -57,6 +57,7 @@
         document.body.style.backgroundSize= 'cover';
         var spanElement = document.getElementById('promo');
         spanElement.innerHTML = title;
+        spanElement.style.display = 'block';
     }
 
     function hideAction() {
