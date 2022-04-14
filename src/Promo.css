@@ -1,0 +1,11 @@
+.promo {
+  margin-top: 10%;
+  width: 100%;
+}
+
+.promo-span {
+  color: var(--color-primary);
+  font-size: 120px;
+  text-align: center;
+  width: 100%;
+}
