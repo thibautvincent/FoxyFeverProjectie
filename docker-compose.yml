@@ -1,0 +1,17 @@
+version: '3.9'
+services:
+  frontend:
+    image: node:18-alpine
+    ports: 
+      - "8080:8080"
+    command: npm start
+    working_dir: /app
+    volumes:
+      - .:/app
+    # networks:
+      # foxy: {}
+
+networks:
+  foxy:
+    external: true
+    name: host
