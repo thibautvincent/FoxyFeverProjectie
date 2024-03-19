@@ -6,7 +6,6 @@ import Footer from './Footer';
 import Promos from './Promos';
 import './App.css';
 import PromoBackground from '../public/images/277831701_352815556803370_6307768631258701992_n.png';
-import ClockBackground from '../public/images/Fox.jpg';
 import FoxHead from '../public/images/fox_head.png';
 
 class App extends React.Component {
