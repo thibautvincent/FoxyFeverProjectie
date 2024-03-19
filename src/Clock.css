@@ -14,9 +14,10 @@
 
 .clock {
   margin-left: 50%;
-  margin-top: 5%;
-  width: 40%;
-  color: var(--color-primary);
+  margin-top: 0%;
+  width: 50%;
+  color: black;
+  /* color: var(--color-primary); */
   fill: currentColor;
   transform-origin: 50px 50px;
   animation-name: fade-in;
@@ -30,7 +31,7 @@
 }
 
 .marks {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   stroke-width: 0.5px;
 }
 

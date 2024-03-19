@@ -2,8 +2,9 @@ export default class Promos {
 
 
     static getCurrentPromo = () => {
+
         const now = new Date();
-        // const now = new Date('2022-01-12 03:30:00');
+        // const now = new Date('2022-01-12 00:00:00');
 
         const promos = [
             {
@@ -16,7 +17,7 @@ export default class Promos {
             {
                 'start': '23:00',
                 'end': '00:00',
-                'title': 'Jenever shotje',
+                'title': 'Jenever shotjes',
                 'price': '€1',
                 'age': '+18',
             },

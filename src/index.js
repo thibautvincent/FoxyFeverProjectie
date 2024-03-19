@@ -5,8 +5,7 @@ import Promo from './Promo';
 import Footer from './Footer';
 import Promos from './Promos';
 import './App.css';
-import PromoBackground from '../public/images/277831701_352815556803370_6307768631258701992_n.png';
-import FoxHead from '../public/images/fox_head.png';
+import PromoBackground from '../public/images/background.png';
 
 class App extends React.Component {
 
@@ -38,7 +37,6 @@ class App extends React.Component {
 
     return (
       <div id='app' style={style}>
-        <img id='foxhead' src={`${FoxHead}`}></img>
         <Clock />
         <Footer />
       </div>
