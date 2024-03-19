@@ -1,0 +1,9 @@
+services:
+  web:
+    image: node:20-alpine
+    command: npm start
+    working_dir: /code
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/code

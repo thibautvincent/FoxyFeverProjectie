@@ -10,6 +10,10 @@ const Promo = (props) => {
             <p className='promo-span'>
                 {props.promo.title} = {props.promo.price}
             </p>
+            <br/>
+            <p className='promo-age'>
+                {props.promo.age}
+            </p>
         </div>
     );
 }

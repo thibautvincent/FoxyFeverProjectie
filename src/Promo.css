@@ -9,3 +9,11 @@
   text-align: center;
   width: 100%;
 }
+
+.promo-age {
+  color: var(--color-primary);
+  font-size: 120px;
+  text-align: center;
+  width: 100%;
+  margin-top: 0;
+}
